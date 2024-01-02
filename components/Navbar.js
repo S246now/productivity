@@ -25,6 +25,10 @@ export default function Navbar() {
             <a href="/api/auth/login">Login</a>
           </button>
         )}
+        /*para comprobar que la ruta está protegida*/
+        {/* <a style={{ marginRight: 8 }} href="/profileClient">
+              Profile
+        </a> */}
       </div>
     </nav>
   );
